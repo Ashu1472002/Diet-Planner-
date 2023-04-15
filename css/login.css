@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form-box{
+    width: 430px;
+    height: 550px;
+    border: 1px solid black;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px;
+    box-shadow: 0 0 20px 5px #375e98;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.error{
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+}
+.regerror{
+    background: #f2dede;
+    color: #a94442;
+    margin-top: 5px;
+    padding: 10px 0px ;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.toggle-btn{
+    width: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    border: 2px solid black;
+    background: linear-gradient(to right, #3067ba, #cee1fc);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons img{
+    width: 30px;
+}
+
+.input-group{
+    top: 140px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid black;
+    background: linear-gradient(to right, #3067ba, #cee1fc);
+    border-radius: 30px;
+}
+.input-group a{
+    color: rgb(67, 67, 67);
+    margin: 0 75px;    
+}
+.checkbox{
+    margin: 30px 10px 30px 0;
+}
+.label{
+    margin: 24px 0;
+}
+/* span{
+    color: rgb(48, 48, 48);
+    font-size: 14px;
+    bottom: 105px;
+    position: absolute;
+} */
+
+#login{
+    left: 50px;
+}
+
+#register{
+    right: 450px;
+    margin: 0 100px;
+}
+
+.footer{
+    color: #ffffff;
+    background-color:#153462;
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    height:50vh;
+}
+.footer h5{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer h5::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer ul li a{
+    color: #ffffff;
+}
+
+
