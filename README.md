@@ -1,1 +1,1 @@
-# Diet-Planner-
+# Diet Planner using BMI Calculation
